@@ -131,3 +131,23 @@ meter {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.container {
+  display: grid;
+  justify-items: center;
+  width: 100vw;
+  gap: 40px;
+}
+
+.page-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 96px);
+  -webkit-align-content: center;
+          align-content: center;
+  gap: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
