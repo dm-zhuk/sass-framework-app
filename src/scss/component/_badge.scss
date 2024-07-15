@@ -1,0 +1,18 @@
+@use "../utils" as frwd;
+
+.badge {
+    @include frwd.bagde-base();
+    color: frwd.$badge-cl;
+}
+
+.badge-completed {
+    background-color: frwd.$completed;
+}
+
+.badge-ended {
+    background-color: frwd.$ended;
+}
+
+.badge-active {
+    background-color: frwd.$active;
+}
